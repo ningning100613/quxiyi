@@ -1,0 +1,15 @@
+首页	index		（complete）
+
+结算中心  settle		（complete）	
+
+选择地址	selectAdd	（complete）
+
+编辑地址	editAdd		(complete）
+
+下单成功	success		(complete）
+
+我的订单	myorder
+
+详情	details
+
+门店	store

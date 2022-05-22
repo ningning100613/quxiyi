@@ -1,0 +1,14 @@
+page{height:100%}
+.main,page,body{background:#F5F5F5;min-height:100%;font-size:28px;font-family:PingFang-SC-Regular;color:#333333}
+.templates{
+    display: flex;
+}
+.templates .adap{flex:1}
+
+.alignItems{
+    align-items: center;
+}
+
+.justifyCenter{
+    justify-content: center;
+}

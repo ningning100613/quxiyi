@@ -1,0 +1,41 @@
+.success{
+    background:rgba(237, 237, 237, 0.9) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAAB8CAYAAACScPCJAAAABHNCSVQICAgIfAhkiAAAAdRJREFUeJzt1EENwCAAwEDAIU/8CwETS5Y0dwr66rxn3wFAyvo7AIDvmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBJk7QJC5AwSZO0CQuQMEmTtAkLkDBD24DgOg2lGkYgAAAABJRU5ErkJggg==') repeat-x 0 top;
+    background-size: 100% 248px;
+}
+.successIcon{
+    width: 36px;
+    height: 36px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABHNCSVQICAgIfAhkiAAAAlVJREFUWIW9mO1xwjAMht8wQUZghGxQRsgGZIN2g2aEbgAbwAakE5ROABskneDtDytXR/6I81XdcRyxLT1IsiwnwwwhmQN4AVDIo718P+X7DuAzy7Jujv5kCJKvJC9Ml4usydeGOZJsJ4BoaUke1wApSD4SDHbyGZMHyWLcsh+mot8rHcmzjDuhoAltJXN8kC3Jag6MD6T2QUT05LLGB5YGFYBppoAEwBqtNGVh4QnTeS6IR//Z0ntPWfDYCsayUSaF3hOqZm2YZJEY26HqluTMRNt7knv98E15p/4nGDsqpT1w3cI7skneSR4C4/bO++of5lskMoc7tnXCAmfXkWS+A6DpmzVgANwA9J7O8dcR2HJVvwvIFhxQLoTRG4QM1BxPdOqdnhTrYUi+xIBlzPYMAHzDjULIVu4kdMTYzcoH58SWf/ulPTPmcTW/0YnVJi50oOg2bp0PfAxoh7+2Exi6WsunmnfrDZI8ASit8R8AhyzLxs+rodydHIq4uITJBw11AVCpuUkwdEtB1x92tmjlA1jJi5gE13v0aduHyYVxBCoZRnQ5hbEfsEt4GwlbDKqeCKPrVWMPTj5cFdTHFBhZrwtypZXbfe+ol5YITcsRb3foNmi3DYF0zapDE59q4mkDmJOyES4PNC2DvrKsBuWBIcequSd0pDnHll6D9DlHLrybtTTd39SL4jv9N+A0GAUVugqfaF5AhK7SR5kTuoqXPpspUAXdRPdJGzCu5cm5LxsSvZUqT04NUQJUTlPRr3HbA7nKmuS8y+bCwbSlsVd6zZxXer8YucWG7zlI2QAAAABJRU5ErkJggg==') no-repeat 0 0;
+    background-size: 36px 36px;
+}
+.successTip{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scrollviewGoods {
+    height: 150px;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+
+  .goodInfo {
+    width: 150px;
+    display: inline-block;
+    height: 150px;
+    margin-right: 20px;
+  }
+  button[type=''].btn {
+    border: 1px solid #999393;
+    color: #262424;
+    border-radius: 60px
+  }
+  
+  button[type=''].btn-hover {
+    // background-image: linear-gradient(#FF5951, #FE3B30);
+  }
+  
