@@ -8,9 +8,11 @@
 
 下单成功	success		(complete）
 
+洗衣车	shop		(complete）
+
 我的订单	myorder
 
-详情	details
+详情	details		(complete）
 
 门店	store
 

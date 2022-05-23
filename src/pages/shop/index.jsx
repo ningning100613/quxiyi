@@ -54,14 +54,6 @@ export default class Shop extends Component {
             </View>
           </View>
 
-
-
-
-
-
-
-
-
         </View>
 
 
