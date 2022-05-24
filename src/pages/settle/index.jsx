@@ -48,7 +48,7 @@ export default class Settle extends Component {
                 <View className='font30'>北京市朝阳区高碑店乡通惠大厦A座3层3001室</View>
                 <View className='colorGray'>预留手机</View>
                 <View className='templates alignItems'>
-                  <Text className=''>13426060666</Text>
+                  <Text className='font28'>13426060666</Text>
                   <View className='marginLeft phoneIcon'></View>
                 </View>
               </View>
@@ -69,7 +69,7 @@ export default class Settle extends Component {
                   <Text className='font30'>美美</Text><Text className='font30 marginLeft'>1342****666</Text>
                 </View>
 
-                <View className=''>收货地址：北京市朝阳区高碑店乡通惠大厦A座3层</View>
+                <View className='font28'>收货地址：北京市朝阳区高碑店乡通惠大厦A座3层</View>
               </View>
               <View className='arrIcon'></View>
             </View>
@@ -167,7 +167,7 @@ export default class Settle extends Component {
                     <Text className='font30'>￥</Text><Text className='font64'>29</Text>
                   </View>
                   <View className='adaption couponCenter'>
-                      <View className='couponText'>29元任洗两件29元任洗两件29元任洗两件29元任洗两件</View>
+                      <View className='couponText font28'>29元任洗两件29元任洗两件29元任洗两件29元任洗两件</View>
                       <View className='font22 colorGray'>有效期: 2020.01.09至2021.01.09</View>
                   </View>
                   <View className='couponRight'>
@@ -182,7 +182,7 @@ export default class Settle extends Component {
                     <Text className='font30'>￥</Text><Text className='font64'>29</Text>
                   </View>
                   <View className='adaption couponCenter'>
-                      <View className='couponText'>29元任洗两件29元任洗两件29元任洗两件29元任洗两件</View>
+                      <View className='couponText font28'>29元任洗两件29元任洗两件29元任洗两件29元任洗两件</View>
                       <View className='font22 colorGray'>有效期: 2020.01.09至2021.01.09</View>
                   </View>
                   <View className='couponRight'>

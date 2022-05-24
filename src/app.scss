@@ -5,16 +5,16 @@ page {
 .main,
 page,
 body {
-  background: rgba(237, 237, 237, 0.9);
+  background: #f7f7f7;
   min-height: 100%;
-  font-size: 28px;
+  font-size: 26px;
   font-family: PingFang-SC-Regular;
   color: #22262E
 }
 
 .Main {
   min-height: 100%;
-  background: rgba(237, 237, 237, 0.9);
+  background: #f7f7f7;
 }
 
 .fixedMain {
@@ -114,8 +114,8 @@ body {
   font-size: 30px;
 }
 
-.font26 {
-  font-size: 26px;
+.font28 {
+  font-size: 28px;
 }
 .font24 {
   font-size: 24px;
@@ -227,8 +227,20 @@ button[type=primary].btn-orage {
   border-radius: 60px;
   margin:0;
   border: 2px solid transparent;
+  font-size: 30px;
 }
 
 button[type=primary].btn-orage-hover {
   background-image: linear-gradient(#FF5951, #FE3B30);
 }
+button[type=''].btn {
+  border: 1px solid #999393;
+  color: #262424;
+  border-radius: 60px;
+  font-size: 30px;
+}
+
+button[type=''].btn-hover {
+  // background-image: linear-gradient(#FF5951, #FE3B30);
+}
+

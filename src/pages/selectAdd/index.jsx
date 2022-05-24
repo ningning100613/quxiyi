@@ -27,7 +27,7 @@ export default class SelectAdd extends Component {
                 <Text className='font30'>曹操</Text><Text className='font30 marginLeft'>18286888628</Text>
               </View>
               <View>
-                <Text className='font26 colorGray'>北京市朝阳区望京阜通东大街方恒国际中心a座</Text>
+                <Text className='colorGray'>北京市朝阳区望京阜通东大街方恒国际中心a座</Text>
               </View>
             </View>
             <View className='marginLeft phoneIcon'></View>
@@ -41,7 +41,7 @@ export default class SelectAdd extends Component {
                 <Text className='font30'>曹操</Text><Text className='font30 marginLeft'>18286888628</Text>
               </View>
               <View>
-                <Text className='font26 colorGray'>北京市朝阳区望京阜通东大街方恒国际中心a座北京市朝阳区望京阜通东大街方恒国际中心a座</Text>
+                <Text className='colorGray'>北京市朝阳区望京阜通东大街方恒国际中心a座北京市朝阳区望京阜通东大街方恒国际中心a座</Text>
               </View>
             </View>
             <View className='marginLeft phoneIcon'></View>
