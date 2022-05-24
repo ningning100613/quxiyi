@@ -1,3 +1,3 @@
 export default definePageConfig({
-  navigationBarTitleText: '选择地址'
+  navigationBarTitleText: '门店详情'
 })
