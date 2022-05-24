@@ -31,7 +31,7 @@ export default class Success extends Component {
           <View className='successTip'>
             <View className='templates alignItems'>
               <View className='successIcon'></View>
-              <Text className='font36 colorWhite'>完成</Text>
+              <Text className='font36 colorWhite marginLeft'>完成</Text>
             </View>
             <Text className='font24 colorWhite marginTop'>
               已完成，感谢您的下单

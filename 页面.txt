@@ -10,9 +10,11 @@
 
 洗衣车	shop		(complete）
 
-我的订单	myorder
+我的订单	myorder		(complete）
 
 详情	details		(complete）
+
+我的	user		(complete）
 
 门店	store
 
