@@ -18,6 +18,10 @@ export default class Myorder extends Component {
   componentDidHide() { }
 
   render() {
+    const scrollRightStyle = {
+      height: Taro.windowHeight - 50 - (78 / Taro.pixel) + 'px'
+    }
+
     const scrollStyleWidth = {
       width: Taro.windowWidth - (150 / Taro.pixel) + 'px'
     }
@@ -26,7 +30,7 @@ export default class Myorder extends Component {
 
     return (
       <View className='Main'>
-        <View className='fixedMain myorder'>
+        <View className='myorder'>
 
           <View className='subMain'>
             <View className='templates'>
@@ -53,6 +57,17 @@ export default class Myorder extends Component {
             </View>
           </View>
 
+          <ScrollView
+              className=''
+              scrollY
+              scrollWithAnimation
+              scrollTop={scrollTop}
+              style={scrollRightStyle}
+              lowerThreshold={Threshold}
+              upperThreshold={Threshold}
+              // onScrollToUpper={this.onScrollToUpper.bind(this)} // 使用箭头函数的时候 可以这样写 `onScrollToUpper={this.onScrollToUpper}`
+              onScroll={this.onScroll}
+            >
 
 
 
@@ -87,8 +102,27 @@ export default class Myorder extends Component {
                 <View className='adaption'></View>
                 <Text className=''>实付: ¥ 29</Text>
               </View>
-
             </View>
+
+
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
 
 
 
@@ -97,8 +131,11 @@ export default class Myorder extends Component {
 
           </View>
 
+          </ScrollView>
+
+
         </View>
-        <View className='fixedButtom fixedPadding whiteBackground'>
+        <View className='padding20 whiteBackground'>
           <Button className='btn-orage' type='primary' hoverClass='btn-orage-hover'>新建收货地址</Button>
         </View>
 

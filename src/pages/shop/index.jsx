@@ -54,6 +54,28 @@ export default class Shop extends Component {
             </View>
           </View>
 
+
+
+          <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+            <View style='height:100px'>1</View>
+
+
         </View>
 
 
