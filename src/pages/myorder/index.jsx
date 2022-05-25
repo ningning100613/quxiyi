@@ -19,7 +19,7 @@ export default class Myorder extends Component {
 
   render() {
     const scrollRightStyle = {
-      height: Taro.windowHeight - 50 - (78 / Taro.pixel) + 'px'
+      height: Taro.windowHeight - (78 / Taro.pixel) + 'px'
     }
 
     const scrollStyleWidth = {
@@ -134,9 +134,6 @@ export default class Myorder extends Component {
           </ScrollView>
 
 
-        </View>
-        <View className='padding20 whiteBackground'>
-          <Button className='btn-orage' type='primary' hoverClass='btn-orage-hover'>新建收货地址</Button>
         </View>
 
 
