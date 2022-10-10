@@ -12,9 +12,10 @@ export default defineAppConfig({
     
     'pages/shop/index',
     'pages/user/index',
-    'pages/activity/index'
+    'pages/activity/index',
+    'pages/myCoupon/index'
 
-
+    
     
 
   ],
