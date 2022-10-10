@@ -11,7 +11,11 @@ export default defineAppConfig({
     'pages/store/index',
     
     'pages/shop/index',
-    'pages/user/index'
+    'pages/user/index',
+    'pages/activity/index'
+
+
+    
 
   ],
   window: {
