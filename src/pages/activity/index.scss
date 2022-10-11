@@ -45,7 +45,7 @@ body {
   font-weight: 700;
 }
 
-.activity .joinBt {
+.joinBt {
   border-radius: 32px;
   background-color: rgba(236, 13, 13, 1);
   color: rgba(250, 250, 250, 1);
@@ -56,6 +56,58 @@ body {
   // margin-top: 10px;
 }
 
+
+
+.activity .reduceIcon {
+  width: 42px;
+  height: 42px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAICAYAAADqSp8ZAAAABHNCSVQICAgIfAhkiAAAAE5JREFUKJHl0zERwDAMQ1HLIpOtdILDqAIpZHTqlLsSiJd+Am/6qKpH0gIw4mK2N8mZHVhEBIAhaWUH9kWzCzv9ALS9uzDbO0nODvRs8QJgIyGVXhtG5wAAAABJRU5ErkJggg==') no-repeat center center;
+  background-size: 28px 8px;
+  text-indent: -9999px;
+
+}
+
+.activity .numberTip {
+  width: 90px;
+height: 42px;
+border-radius: 5px;
+background: #F8F8F8;
+  text-align: center;
+  margin: 0 20px;
+  line-height: 42px;
+}
+
+.activity .plusIcon {
+  width: 42px;
+  height: 42px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAABHNCSVQICAgIfAhkiAAAAKJJREFUSInt1MENwjAMheE/EXu0ozACI7QbeBRvEEZhlGYEJqCHIg6oWK4IKYL4GEf+cnBewFkicgQS0D+1JmBU1YtnTvSCwHkF436WvEO2gJ3RW3vI22CRamADvx8MRoKUrgkYDywJYn3qUtUDKVbCHujvL80u4LWilyNwAnINDBiC97aI3Ky+qrpm/cfSNLCBHwOtRHIHxxbwVSJlYPAOmQG80hnLYCZh9gAAAABJRU5ErkJggg==') no-repeat center center;
+  background-size: 28px 28px;
+  text-indent: -9999px;
+}
+
+ .shopIcon {
+  width:60px;
+  height: 60px;
+  background: url('data:image/png;base64,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') no-repeat center center;
+  background-size: 60px 60px;
+  position: relative;
+}
+
+.numberYg{
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  border-radius: 100%;
+  border: 4px solid #FF5951;
+  padding: 5px;
+  height: 26px;
+  line-height: 26px;
+  min-width: 26px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 12px;
+  color: #FF5951;
+}
 
 .font16 {
   font-size: 13px;
